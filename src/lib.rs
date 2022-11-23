@@ -134,7 +134,7 @@ mod tests {                   //     DONT RUN THE TESTS ABOVE THIS LINE
     // #[ignore]
     #[test]
     fn t001_underline() {
-        let s = justify("Hello Svenny!".to_string(), 40, Justify::Center);
+        let s = justify("Hello Goonies!".to_string(), 40, Justify::Center);
         underline_string(s.clone());
         print!("\n");
         let len = s.clone().len();

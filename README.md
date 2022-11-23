@@ -1,10 +1,17 @@
 # error feedback
 formatted strings on error feedback 
 
+pub enum Feedback{
+    Info,
+    Warning,
+    Error
+}
+
+
 
     #[test]
     fn t001_underline() {
-        let s = justify("Hello Svenny!".to_string(), 40, Justify::Center);
+        let s = justify("Hello Goonies!".to_string(), 40, Justify::Center);
         underline_string(s.clone());
         print!("\n");
         let len = s.clone().len();
