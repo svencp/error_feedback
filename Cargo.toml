@@ -6,7 +6,6 @@ authors = ["Sven Ponelat"]
 license = "MIT OR Apache-2.0"
 description = "error feedback strings"
 repository = "https://github.com/svencp/error_feedback.git"
-keywords = ["error feedback"]
 categories = ["errors"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
